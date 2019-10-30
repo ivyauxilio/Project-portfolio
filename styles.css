@@ -1,0 +1,780 @@
+/*======================================
+
+color blue: #009FD9; #2DA2DE;
+gray: #535252
+
+
+======================================*/
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+.cover {
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+
+}
+
+body {
+    font-family: "Lato", sans-serif !important;
+}
+
+/*----- main cover ----*/
+
+.cover {
+
+    display: table;
+    width: 100%;
+    padding: 0 20%;
+    box-shadow: inset 0 0 100px #000;
+}
+
+#bg-parallax {
+    /*background: url('images/laptop4.jpg') center no-repeat;*/
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cover-text {
+    width: 1100px;
+    text-align: center;
+    margin-top: 300px;
+    vertical-align: middle;
+}
+
+.cover-text h1 {
+    font-family: "Avant Garde", sans-serif;
+    margin: 0;
+    color: white;
+    font-size: 70px;
+    letter-spacing: -1px;
+    font-weight: bolder;
+    text-shadow: 1px 1px #000;
+}
+
+.cover-text h3 {
+    color: #50c4f6;
+    margin: 40px;
+    font-size: 29px;
+}
+
+
+/*----- buttons  ----*/
+
+/*.cover-text .button-work{
+     margin-top: 30px;
+}
+
+/*.btn-general {
+    border-width: 4px;
+    border-radius: 0;
+    border-color: #50c4f6;
+    text-transform: uppercase;
+    padding: 16px 20px;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.btn-white {
+    border-color: #fff;
+    color: #50c4f6;
+    font-weight: bolder;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    background-color: #009fd9;
+    border-color: #009fd9;
+    color: #fff;
+}*/
+
+#home-btn .btn-general {
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 5;
+    padding: 12px 22px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+#home-btn .btn-white {
+    color: #009fd9;
+    ;
+
+}
+
+#home-btn .btn-white:hover,
+#home-btn .btn-white:focus {
+    background-color: #009fd9;
+    border-color: #009fd9;
+    color: #fff;
+}
+
+
+
+
+
+
+/*----- end of main cover ----*/
+
+/*----- section ----*/
+
+section {
+    padding: 80px;
+}
+
+/*----- end of section ----*/
+
+/*-------animate ----------*/
+
+.cover-text h1 {
+    animation-delay: .2s;
+    animation-duration: .5s;
+}
+
+.cover-text h3 {
+    animation-delay: .4s;
+    animation-duration: .5s;
+}
+
+.cover-text a {
+    animation-delay: .5s;
+    animation-duration: .5s;
+}
+
+
+
+/*======================================*/
+
+/*----- Services Section ----*/
+
+/*======================================*/
+#services {
+    background-color: #FFFFFF;
+}
+
+#services .content-box {
+    padding: 30px 0 30px 0;
+
+}
+
+.content-title h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0 0 40px 0;
+    color: #009FD9;
+}
+
+.service-item {
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.service-item .service-item-description {
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 12px;
+}
+
+
+/*----- Logo and Graphics Icon ----*/
+
+.service-item-icon-logo {
+    width: 200px;
+    height: 120px;
+    background-image: url('images/design2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .2s ease;
+}
+
+.service-item:hover .service-item-icon-logo {
+    background-image: url('images/design.png');
+}
+
+/*----- Motion Graphics and Video Editing Icon ----*/
+
+.service-item-icon-motion {
+    width: 200px;
+    height: 120px;
+    background-image: url('images/video2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .2s ease;
+}
+
+.service-item:hover .service-item-icon-motion {
+    background-image: url('images/video.png');
+
+}
+
+/*-----3d Modeling Icon ----*/
+
+.service-item-icon-3d {
+    width: 200px;
+    height: 120px;
+    background-image: url('images/3d2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .2s ease;
+}
+
+.service-item:hover .service-item-icon-3d {
+    background-image: url('images/3d.png');
+}
+
+/*----- Web Icon ----*/
+
+.service-item-icon-web {
+    width: 200px;
+    height: 120px;
+    background-image: url('images/web2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .2s ease;
+}
+
+.service-item:hover .service-item-icon-web {
+    background-image: url('images/web.png');
+}
+
+
+/*-----heading ----*/
+
+.service-item-element h3 {
+    text-align: center;
+    font-weight: 600;
+    color: #535252;
+    font-size: 20px;
+}
+
+.service-item:hover .service-item-element h3 {
+    color: #4FC3F5;
+    transition: all .2s ease;
+}
+
+
+
+
+
+/*----------- Services Section Animate ----------*/
+
+
+.content-title h2 {
+    animation-delay: .2s;
+    animation-duration: .5s;
+}
+
+.service-item-icon-logo .service-item-icon-motion .service-item-icon-3d .service-item-icon-web {
+    animation-delay: .2s;
+    animation-duration: .5s;
+}
+
+.service-item-element {
+    animation-delay: .2s;
+    animation-duration: .5s;
+}
+
+.service-item-description {
+    animation-delay: .2s;
+    animation-duration: .5s;
+}
+
+.service-button {
+    animation-delay: .5s;
+    animation-duration: .5s;
+}
+
+
+.service-item .service-button {
+    border-width: 2px;
+    border-radius: 0;
+    border-color: #009fd9;
+    text-transform: uppercase;
+    padding: 8px 22px;
+    font-size: 16px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.service-button:hover,
+.service-button:focus {
+    background-color: #009fd9;
+    border-color: #009fd9#009fd9;
+    color: #fff;
+    transition: all .2s ease;
+}
+
+
+
+/*============================================*/
+
+/*----- who we are section ----*/
+
+/*============================================*/
+
+#about-us .container {
+    margin-left: 970px;
+    width: 690px;
+}
+
+#about-us h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+    margin-left: 950px;
+}
+
+.company-description {
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: .5px;
+    text-indent: 50px;
+    text-align: justify;
+
+}
+
+#company-mission h3 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+#company-mission p {
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: .5px;
+    text-indent: 50px;
+    text-align: justify;
+
+}
+
+
+
+#about-us .row {
+    text-align: right;
+
+}
+
+/*----- end of who we are section ----*/
+
+
+/*============================================*/
+
+/*----- our work section ----*/
+
+/*============================================*/
+
+
+#our-work h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #009FD9;
+}
+
+#our-work h4 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+.container-fluid {
+    margin-bottom: 80px;
+}
+
+.row .col-md-3 {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+
+.img-wrapper {
+    position: relative;
+    overflow: hidden;
+    background: black;
+}
+
+.img-wrapper img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.img-wrapper:hover img {
+    transform: scale(1.2);
+    opacity: .3;
+}
+
+.project-inner {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: none;
+
+}
+
+.project-title {
+    margin-top: 20%;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+.project-description {
+    padding: 0 80px;
+    font-size: 15px;
+    color: white;
+}
+
+.project-inner .work-button {
+    border-radius: 0;
+    border-width: 2px;
+    border-color: white;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    font-size: 12px;
+    margin-top: 10px;
+    color: white;
+}
+
+.work-button:hover,
+.work-button:focus {
+    background-color: #009fd9;
+    border-color: #009fd9;
+    color: #fff;
+    transition: .3s ease;
+}
+
+.img-wrapper:hover .project-inner {
+    display: inline-block;
+
+}
+
+#our-work .button {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.button a {
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+/*============================================*/
+
+/*----- how it works----*/
+
+/*============================================*/
+
+#how-it-works {
+    background: #2DA2DE;
+    text-align: center;
+}
+
+.how h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+.how h4 {
+    color: white;
+}
+
+
+#how-it-works img {
+    width: 1300px;
+    padding: 0;
+    margin-top: 10px;
+}
+
+/*============================================*/
+
+/*----- clients ----*/
+
+/*============================================*/
+
+#clients {
+    background-color: #2DA2DE;
+}
+
+#clients .container {
+    width: 1600px;
+    display:
+}
+
+.section-header-clients h2 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 20px;
+
+}
+
+#clients .client-logo-1 {
+    width: 350px;
+    height: 100px;
+    background-image: url('images/clients/RebelsMarket.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 280px;
+    margin-top: 30px;
+}
+
+#clients .client-logo-2 {
+    width: 300px;
+    height: 150px;
+    background-image: url('images/clients/sunLife.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 280px;
+    margin-left: 80px;
+
+}
+
+#clients .client-logo-3 {
+    width: 200px;
+    height: 150px;
+    background-image: url('images/clients/wish.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+    margin-left: 120px;
+
+}
+
+#clients .client-logo-4 {
+    width: 200px;
+    height: 150px;
+    background-image: url('images/clients/MI.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px;
+    margin-left: 40px;
+
+}
+
+#clients .client-logo-5 {
+    width: 250px;
+    height: 100px;
+    background-image: url('images/clients/tt.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 240px;
+    margin-left: -55px;
+
+}
+
+#clients .client-logo-6 {
+    width: 250px;
+    height: 100px;
+    background-image: url('images/clients/marLuke.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px;
+    margin-left: -50px;
+    margin-top: 20px;
+}
+
+
+
+/*============================================*/
+
+/*-----testimonials----*/
+
+/*============================================*/
+
+#myCarousel {
+    background: url(images/howItWorks10.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* #myCarousel-box {
+    margin-top: -100px;
+    margin-left: -80px;
+    margin-right: -80px;
+    height: 492px;
+} */
+
+.section-header-testimonial h2 {
+    text-align: center;
+    padding: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.carousel-inner .item {
+    height: 492px;
+    margin-top: -100px;
+}
+
+.carousel-caption {
+    margin-bottom: 100px;
+}
+
+.carousel-caption h3 {
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.carousel-caption h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.carousel-caption h5 {
+    font-size: 18px;
+}
+
+
+
+/*============================================*/
+
+/*----- contact us section ----*/
+
+/*============================================*/
+
+
+#contact {
+    background: #fff;
+    height: 350px;
+    padding-top: 60px;
+}
+
+.contact-left h3 {
+    font-weight: bolder;
+    font-size: 30px;
+    color: #535252;
+    margin-bottom: 30px;
+}
+
+.contact-left h4 {
+    width: 500px;
+    font-size: 20px;
+    color: #535252;
+    font-weight: 300;
+    letter-spacing: .5px;
+}
+
+.contact-right {
+    margin-left: 100px;
+}
+
+.contact-right h3 {
+    font-weight: bolder;
+    font-size: 30px;
+    color: #535252;
+    margin-bottom: 10px;
+}
+
+.contact-right h4 {
+    font-size: 20px;
+    color: #535252;
+}
+
+#contact-info {
+    margin-top: 20px;
+}
+
+
+/*============================================*/
+
+/*----- footer section ----*/
+
+/*============================================*/
+
+#footer-bottom {
+    background-color: #2DA2DE;
+}
+
+#footer-bottom .footer-text {
+    text-align: center;
+}
+
+.footer-text h5 {
+    color: #fff;
+    font-size: 15px;
+}
+
+
+/*============================================*/
+
+/*----- navigaton ----*/
+
+/*============================================*/
+
+.navbar {
+    padding: 10px 0;
+    box-shadow: 1px 1px .5px gray;
+}
+
+.seven-top-nav {
+    /*    background-color: #fff;*/
+    background-color: #fff;
+}
+
+#sevenD-menu .sevenMenu {
+    float: right;
+}
+
+
+.navbar-nav>li>a {
+    color: #616262;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: 700;
+}
+
+.navbar-nav>li.active {
+    background: none;
+}
+
+.collapse .navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
+    background: none;
+    color: #2DA2DE;
+}
+
+.navbar-header .navbar-toggle {
+    background-color: #616262;
+    border: 2px solid #fff;
+    border-radius: 2;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
